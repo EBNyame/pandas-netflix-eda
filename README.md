@@ -70,61 +70,58 @@ pandas-netflix-eda/
 │
 └── README.md
 
+## ▶️ Getting Started
 
-▶️ Getting Started
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/pandas-netflix-eda.git
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+```bash
 pip install pandas
+```
 
-3️⃣ Run the Notebook
+### 3️⃣ Run the Notebook
 
-Open notebook.ipynb in Jupyter Notebook or Google Colab.
+Open `notebook.ipynb` in **Jupyter Notebook** or **Google Colab**.
 
-🧪 Sample Code Snippet
+## 🧪 Sample Code Snippet
+
+```python
 import pandas as pd
 
 df = pd.read_csv("data/netflix_titles.csv")
 
 # Display first 5 rows
 df.head()
+```
 
-🚀 Future Improvements
 
-Add data visualizations using Matplotlib & Seaborn
+## 🚀 Future Improvements
 
-Perform genre-based analysis
+- Add data visualizations using Matplotlib & Seaborn
 
-Apply machine learning for content recommendation
+- Perform genre-based analysis
 
-Build an interactive dashboard
+- Apply machine learning for content recommendation
 
-🧠 Learning Outcome
+- Build an interactive dashboard
+
+## 🧠 Learning Outcome
 
 This project strengthened my understanding of:
 
-Real-world data cleaning
+- Real-world data cleaning
 
-Pandas data manipulation
+- Pandas data manipulation
 
-Exploratory data analysis techniques
+- Exploratory data analysis techniques
 
-Writing clean and readable analysis code
+- Writing clean and readable analysis code
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 ⭐ If you find this project helpful, consider giving it a star!
-
-
----
-
-### ✅ Next steps (optional — I can do these for you):
-- Rewrite this as a **resume project description**
-- Add **EDA visualizations**
-- Create a **portfolio website section**
-- Optimize for **data analyst interviews**
-
-Just tell me what you want next 🚀
