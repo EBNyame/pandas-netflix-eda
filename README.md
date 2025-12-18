@@ -69,6 +69,7 @@ pandas-netflix-eda/
 ├── notebook.ipynb
 │
 └── README.md
+```
 
 ## ▶️ Getting Started
 
