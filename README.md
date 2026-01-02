@@ -7,8 +7,8 @@
 
 ## 📌 Overview
 
-This project performs **Exploratory Data Analysis (EDA)** on the **Netflix Movies and TV Shows** dataset using **Python and Pandas**.  
-It focuses on real-world **data cleaning, transformation, and analysis**, making it an ideal beginner-to-intermediate Pandas project.
+This project performs **Exploratory Data Analysis (EDA)** on the **Netflix Movies and TV Shows** dataset using **Python, Pandas and Matplotlib**.  
+It focuses on real-world **data cleaning, transformation, analysis and visualization**, making it an ideal beginner-to-intermediate Pandas project.
 
 ---
 
@@ -16,6 +16,7 @@ It focuses on real-world **data cleaning, transformation, and analysis**, making
 
 - **Python**
 - **Pandas**
+- **Matplotlib**
 - **Google Colab / Jupyter Notebook**
 - **GitHub**
 
@@ -47,6 +48,16 @@ The dataset includes information such as:
 - Movies vs TV Shows distribution
 - Country-wise content analysis
 - Year-wise content trends
+- Visualizing insights using Matplotlib
+
+---
+
+## 📊 Visualization Included
+
+The project contains plots such as:
+- Movies vs Tv Shows bar chart
+- Content adeed per year chart
+- Content ratings distribution bar chart
 
 ---
 
@@ -80,7 +91,7 @@ git clone https://github.com/your-username/pandas-netflix-eda.git
 
 ### 2️⃣ Install Dependencies
 ```bash
-pip install pandas
+pip install -r requirements.txt
 ```
 
 ### 3️⃣ Run the Notebook
@@ -97,11 +108,16 @@ df = pd.read_csv("data/netflix_titles.csv")
 # Display first 5 rows
 df.head()
 ```
+### requirements
+```shell
+pandas>=1.5
+matplotlib>=3.7
+```
 
 
 ## 🚀 Future Improvements
 
-- Add data visualizations using Matplotlib & Seaborn
+- Add Seaborn visualizations 
 
 - Perform genre-based analysis
 
@@ -113,11 +129,13 @@ df.head()
 
 This project strengthened my understanding of:
 
-- Real-world data cleaning
+- Real-world data cleaning procedures
+
+- Working on missing values
 
 - Pandas data manipulation
 
-- Exploratory data analysis techniques
+- Data visualization with Matplotlib
 
 - Writing clean and readable analysis code
 
